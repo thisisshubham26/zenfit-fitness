@@ -13,9 +13,7 @@ import {
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Filler);
 
-const API_BASE = window.location.hostname === 'localhost' 
-    ? 'http://localhost:5001/api' 
-    : '/api';
+const API_BASE = 'https://zenfit-fitness.onrender.com/api';
 
 const fitnessData = {
     foodItems: [
